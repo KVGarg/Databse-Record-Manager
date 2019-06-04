@@ -16,7 +16,7 @@ class forgotc extends JFrame implements ActionListener
 		l2=new JLabel("SecurityQuestion: Favourite Color?");
 		t1=new JTextField(20);
 		t2=new JTextField(20);
-		i1=new ImageIcon("images/close.jpg");
+		i1=new ImageIcon("../images/close.jpg");
 		b2=new JButton(i1);
 		setLayout(null);
 		add(l1);

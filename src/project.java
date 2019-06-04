@@ -11,9 +11,9 @@ public class project extends JFrame implements ActionListener
 	
 		setLayout(new FlowLayout());
 		setUndecorated(true);
-		i1=new ImageIcon("images/Student.jpg");
-		i2=new ImageIcon("images/Crime.jpg");
-		i3=new ImageIcon("images/Medical.png");
+		i1=new ImageIcon("../images/Student.jpg");
+		i2=new ImageIcon("../images/Crime.jpg");
+		i3=new ImageIcon("../images/Medical.png");
 		b1=new JButton(i1);
 		b2=new JButton(i2);
 		b3=new JButton(i3);

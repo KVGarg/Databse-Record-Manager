@@ -43,7 +43,7 @@ class srecord extends JFrame implements ActionListener
 		
 		}
 		catch(Exception e){System.out.println(e);}
-		i1=new ImageIcon("images/close.jpg");
+		i1=new ImageIcon("../images/close.jpg");
 		b2=new JButton(i1);
 		b2.setBounds(new Rectangle(1340,0,19,19));
 		

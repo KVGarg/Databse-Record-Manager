@@ -13,12 +13,12 @@ class criminal extends JFrame implements ActionListener
 	{	setSize(1500,950);
 		setUndecorated(true);
 		setLayout(new BorderLayout());
-		background=new JLabel(new ImageIcon("images/cback.jpg"));
+		background=new JLabel(new ImageIcon("../images/cback.jpg"));
 		add(background);	
 		
      	b1=new JButton("Login");
 		b2=new JButton("Forgot Password");
-		i1=new ImageIcon("images/close.jpg");
+		i1=new ImageIcon("../images/close.jpg");
 		b3=new JButton(i1);
 		t1=new JTextField(10);
 		t2=new JPasswordField(10);

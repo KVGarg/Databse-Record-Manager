@@ -13,7 +13,7 @@ class student extends JFrame implements ActionListener
 	{	setSize(1500,950);
 		setUndecorated(true);
 		setLayout(new BorderLayout());
-		background=new JLabel(new ImageIcon("images/sback.jpg"));
+		background=new JLabel(new ImageIcon("../images/sback.jpg"));
 		add(background);
 		
 		b1=new JButton("Login");
@@ -24,7 +24,7 @@ class student extends JFrame implements ActionListener
 		l2=new JLabel("Password");
 		l1.setFont(new Font("Arial Black", Font.BOLD, 14));
 		l2.setFont(new Font("Arial Black", Font.BOLD, 14));
-		i1=new ImageIcon("images/close.jpg");
+		i1=new ImageIcon("../images/close.jpg");
 		b3=new JButton(i1);
 		
 		background.add(l1);

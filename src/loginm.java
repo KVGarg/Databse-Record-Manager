@@ -13,16 +13,16 @@ class loginm extends JFrame implements ActionListener
 		setSize(1500,950);
 		setUndecorated(true);
 		setLayout(new BorderLayout());
-		background=new JLabel(new ImageIcon("images/mback.jpg"));
+		background=new JLabel(new ImageIcon("../images/mback.jpg"));
 		add(background);
 		
-		i1=new ImageIcon("images/new.jpg");
-		i2=new ImageIcon("images/save.png");
-		i3=new ImageIcon("images/update.jpg");
-		i4=new ImageIcon("images/search.png");
-		i5=new ImageIcon("images/records.png");
-		i6=new ImageIcon("images/search1.png");
-		i9=new ImageIcon("images/close.jpg");
+		i1=new ImageIcon("../images/new.jpg");
+		i2=new ImageIcon("../images/save.png");
+		i3=new ImageIcon("../images/update.jpg");
+		i4=new ImageIcon("../images/search.png");
+		i5=new ImageIcon("../images/records.png");
+		i6=new ImageIcon("../images/search1.png");
+		i9=new ImageIcon("../images/close.jpg");
 		b1=new JButton(i1);
 		b2=new JButton(i2);
 		b3=new JButton(i3);

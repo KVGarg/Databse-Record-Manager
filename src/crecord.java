@@ -42,7 +42,7 @@ class crecord extends JFrame implements ActionListener
 		}
 		catch(Exception e){}
 		t1.setVisible(true);
-		i1=new ImageIcon("images/close.jpg");
+		i1=new ImageIcon("../images/close.jpg");
 		b2=new JButton(i1);
 		b2.setBounds(new Rectangle(1340,0,19,19));
 	}
